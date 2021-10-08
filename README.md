@@ -29,6 +29,10 @@ The below figure shows the aggregated feature importance for each transformer mo
 
 ![alt text](./imgs/embedding_model_imp.png)
 
+### Flair Classifier Model:
+This model uses the finetuned GPT2-medium embeddings for the document embeddings, and uses Flair classifier, with a LR scheduler, a batch size of 4, and trains for 10 epochs for each fold. This is the best performing model on the corpus in this project. Below is a plot of the model average AUC and std.
+![alt text](./imgs/flair_clf_gpt2m.png)
+
 ### Word Embedding models:
 This models investigate word level features, the features include the word tenor vehicle relation with different embedding models, the cosine similarity between the metaphor words from different embedding models, sentiment and confidence score, ease of readness, and the gltr word statistics. There are 14 features in total which makes this approach explainable. The below figure shows the 
 
