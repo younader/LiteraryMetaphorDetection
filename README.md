@@ -77,3 +77,8 @@ Akbik, A., Blythe, D., & Vollgraf, R. (2018). Contextual String Embeddings for S
 Scott Lundberg, & Su-In Lee. (2017). A Unified Approach to Interpreting Model Predictions.
 
 
+Robyn Speer, Joshua Chin, and Catherine Havasi. 2017. "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge." In proceedings of AAAI 31.
+
+
+Alec Radford, Jeff Wu, Rewon Child, David Luan, Dario Amodei, & Ilya Sutskever (2019). Language Models are Unsupervised Multitask Learners. 
+
